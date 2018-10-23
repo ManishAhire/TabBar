@@ -13,6 +13,7 @@
 		117D8AEF217DF0FC002146E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D8AED217DF0FC002146E2 /* Main.storyboard */; };
 		117D8AF1217DF0FE002146E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D8AF0217DF0FE002146E2 /* Assets.xcassets */; };
 		117D8AF4217DF0FE002146E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D8AF2217DF0FE002146E2 /* LaunchScreen.storyboard */; };
+		117D8AFE217DF7B2002146E2 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D8AFD217DF7B2002146E2 /* UserDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		117D8AF0217DF0FE002146E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117D8AF3217DF0FE002146E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117D8AF5217DF0FE002146E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117D8AFD217DF7B2002146E2 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				117D8AE7217DF0FC002146E2 /* AppDelegate.swift */,
 				117D8AE9217DF0FC002146E2 /* FirstViewController.swift */,
+				117D8AFD217DF7B2002146E2 /* UserDetailsViewController.swift */,
 				117D8AEB217DF0FC002146E2 /* SecondViewController.swift */,
 				117D8AED217DF0FC002146E2 /* Main.storyboard */,
 				117D8AF0217DF0FE002146E2 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				117D8AEC217DF0FC002146E2 /* SecondViewController.swift in Sources */,
 				117D8AE8217DF0FC002146E2 /* AppDelegate.swift in Sources */,
+				117D8AFE217DF7B2002146E2 /* UserDetailsViewController.swift in Sources */,
 				117D8AEA217DF0FC002146E2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JAJA2C735Y;
+				DEVELOPMENT_TEAM = 9F49W83KP5;
 				INFOPLIST_FILE = TabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.QTCDigital.TabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S2System.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JAJA2C735Y;
+				DEVELOPMENT_TEAM = 9F49W83KP5;
 				INFOPLIST_FILE = TabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.QTCDigital.TabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S2System.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

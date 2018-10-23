@@ -10,9 +10,16 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    
+    @IBOutlet weak var heightContentView: NSLayoutConstraint!
+    @IBOutlet weak var lblEmail: UILabel!
+    
+    //MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        title = "About Us"
+        
+        heightContentView.constant = lblEmail.frame.origin.y
     }
 
 
